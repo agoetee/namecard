@@ -1,0 +1,21 @@
+.canvass {
+    display: flex;
+    /* position: relative; */
+    /* height: 50vmin;
+    width: 150vmin;
+    background-image: linear-gradient(to bottom right, #669999, #FFDDA9);
+    right: -50px;
+    display: grid;
+    grid-template-columns: 12px 12px 12px;
+    grid-template-rows: 15px 15px; */
+}
+.images {
+    width: 70%;
+    background-color: antiquewhite;
+}
+
+.text {
+    width: 30%;
+    background-color: antiquewhite;
+    font-family: cursive, fantasy;
+}
