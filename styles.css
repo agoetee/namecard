@@ -27,3 +27,10 @@ h3 {
     color: black;
     border-radius: 5px;
 }
+
+/*This h4 tag is just to show conflict and resolving(Main)*/
+h4 {
+    font-family: sans-serif, fantasy;
+    background-color: seashell;
+    color: blue;
+}
