@@ -19,3 +19,10 @@
     background-color: antiquewhite;
     font-family: cursive, fantasy;
 }
+
+/*This h4 tag is just to show conflict and resolving(Main)*/
+h4 {
+    font-family: sans-serif, fantasy;
+    background-color: seashell;
+    color: blue;
+}
