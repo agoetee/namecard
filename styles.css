@@ -19,3 +19,11 @@
     background-color: antiquewhite;
     font-family: cursive, fantasy;
 }
+
+/*This 'designing' branch section is for vawulence*/
+
+h3 {
+    background-color: teal;
+    color: black;
+    border-radius: 5px;
+}
