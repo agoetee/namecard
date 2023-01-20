@@ -1,9 +1,9 @@
 body {
-    margin: 6rem;
+    margin: 6rem 8rem 6rem 8rem;
 }
 .canvass {
     display: grid;
-    background-image: linear-gradient(to bottom right, #669999, #FFDDA9);
+    background-image: linear-gradient(to bottom right, #e3fc92, #35a5ca);
     grid-template-columns: 1fr repeat(3, 2fr) 3fr 1fr;
 	grid-template-rows: 1fr repeat(2, 3fr) 1fr;
     gap: 2em;
@@ -16,7 +16,7 @@ body {
 }
 .ls-stretch {
     grid-column: 1 / 2;
-	grid-row: 2 / span 2;
+	grid-row: 1 / span 4;
     background-color: beige;
 }
 .first {
@@ -46,10 +46,11 @@ body {
 .text {
     grid-column: 5 / 6;
 	grid-row: 2 / 4;
+    align-self: center;
 }
 .rs-stretch {
     grid-column: 6 / 7;
-	grid-row: 2 / 4;
+	grid-row: 1 / 5;
     background-color: beige;
 }
 
@@ -64,14 +65,22 @@ body {
 }
 
 h3 {
-    background-color: teal;
-    color: black;
-    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: garamond, 'Trebuchet MS', Arial;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
 }
 
-/*This h4 tag is just to show conflict and resolving(Main)*/
-h4 {
-    font-family: sans-serif, fantasy;
+.smaller {
+    font-family: garamond, Arial, sans-serif;
+    padding: 5px 0 5px 0;
     background-color: seashell;
     color: blue;
+    font-size: 0.7em;
+}
+.smaller > h4 {
+    margin: 0;
+    padding: .7em 0 .7em 0;
 }
